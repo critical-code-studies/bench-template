@@ -45,7 +45,7 @@ Paratexts live in a private GitHub repository named in `config.js` (`paratexts`)
 
 ## The language of the sources
 
-The template reads any source text with the kit's plain adapter (`lang: 'plain'`): a comment runs from the comment mark to the end of the line, and a routine begins where the `routine` pattern matches. Highlighting in Read is the same (`hl` in `research/js/read.js`), and the Functional overview (`kit/functional.js`) finds calls as a routine's name followed by `(`; a bench reads its language better with `SW.BENCH.functional.analyse` (the kit's README). A bench for one language can give its own adapter, as the SHRDLU bench does for MacLisp (`lang-maclisp.js`) and the Spacewar! bench for PDP-1 MACRO (`lang-macro.js`), and its own highlighting and views beside Read.
+The template reads any source text with the kit's plain adapter (`lang: 'plain'`): a comment runs from the comment mark to the end of the line, and a routine begins where the `routine` pattern matches. Highlighting in Read is the same (`hl` in `research/js/read.js`), and the Functional overview (`kit/functional.js`) finds calls as a routine's name followed by `(`; a bench reads its language better with `SW.BENCH.functional.analyse` (the kit's README). A bench that can run its program (on an emulator or an interpreter) can give the overview a second mode beside the reading, Recorded run (`SW.BENCH.functional.recorded`), as the Spacewar! bench does; a switch then appears in its heading. A bench for one language can give its own adapter, as the SHRDLU bench does for MacLisp (`lang-maclisp.js`) and the Spacewar! bench for PDP-1 MACRO (`lang-macro.js`), and its own highlighting and views beside Read.
 
 ## Releases
 
