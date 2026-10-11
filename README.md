@@ -1,5 +1,8 @@
 # bench-template
 
+**Author:** David M. Berry  
+**Version:** 0.1.8 (bench-kit 0.16.2)
+
 A starting point for a critical code studies research bench: a static site for reading, comparing and annotating the versions of a program's source code with a group. It is built on [bench-kit](https://github.com/critical-code-studies/bench-kit), the modules shared by the [SHRDLU](https://critical-code-studies.github.io/SHRDLU/research/) and [Spacewar!](https://spacewar1962.github.io/spacewar/research/) benches, and runs as it stands, on an invented example: two versions of a small Python program and a lost first sketch.
 
 ## What a new bench has
@@ -49,7 +52,7 @@ The template reads any source text with the kit's plain adapter (`lang: 'plain'`
 
 ## Releases
 
-On each change to `research/`, raise the version on every `?v=` in `research/index.html` by 0.0.1 (all alike, so browsers fetch fresh copies), set the `bench-date` meta there to the day, and add the change to `research/CHANGELOG.md`.
+On each change to `research/`, raise the version on every `?v=` in `research/index.html` by 0.0.1 (all alike, so browsers fetch fresh copies), set the `bench-date` meta there to the day, and add the change to `research/CHANGELOG.md`. The version at the top of this README follows it.
 
 ## The kit
 
