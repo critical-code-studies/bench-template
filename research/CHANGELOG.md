@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.15 (2026-10-11)
+
+- bench-kit 0.17.3: Flow's columns in place with the code shown.
+
 ## 0.1.14 (2026-10-11)
 
 - bench-kit 0.17.2: Genealogy's Flow at full zoom draws the code text only for what is on screen.
