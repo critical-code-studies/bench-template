@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.7 (2026-10-11)
+
+- bench-kit 0.16.1: its README lists everything a bench provides and every setting and hook.
+
 ## 0.1.6 (2026-10-11)
 
 - bench-kit 0.16.0: the Functional overview can have a second mode, Recorded run, beside Read from the source, for a bench that can run its program (`SW.BENCH.functional.recorded`; the README). The template has none, so no switch.
