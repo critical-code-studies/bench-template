@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.13 (2026-10-11)
+
+- bench-kit 0.17.1: a shorter Tech stack row in the About box.
+
 ## 0.1.12 (2026-10-11)
 
 - The frame from bench-kit 0.17.0: `js/main.js` gives only the views (`kit/shell.js` does the rest), the menus are `kit/menus.js`, Versions ▸ This version is `kit/version.js`, and references and SWHIDs are `kit/refs.js` (set as `refs` in `js/config.js`). `js/menus.js` and `js/about.js` are gone.
