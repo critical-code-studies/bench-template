@@ -7,7 +7,7 @@
 
   var SW_B = SW.BENCH;
   // the views, in the order of the tabs (index.html has a section for each: view-read …)
-  var ORDER = ['read', 'compare', 'genealogy', 'about', 'findings', 'notes', 'paratexts'];
+  var ORDER = ['read', 'functional', 'compare', 'genealogy', 'about', 'findings', 'notes', 'paratexts'];
 
   function fillPicker() {
     var sel = SW.$('#pick-a');
@@ -88,7 +88,7 @@
     SW.emit('theme', t);
     // Figures are coloured for the theme when drawn, so draw them again.
     if (SW.state.v) {
-      ['compare', 'genealogy', 'findings'].forEach(function (k) { delete shown[k]; });
+      ['functional', 'compare', 'genealogy', 'findings'].forEach(function (k) { delete shown[k]; });
       if (SW.views.findings && SW.views.findings.reset) SW.views.findings.reset();
       if (['compare', 'genealogy', 'findings'].indexOf(SW.state.tab) >= 0) showCurrent();
     }

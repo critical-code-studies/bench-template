@@ -5,6 +5,7 @@ A starting point for a critical code studies research bench: a static site for r
 ## What a new bench has
 
 - **Read**: each version's files, line by line, as held; a search; annotations under their lines or as cards in the margin, shared through a Hypothesis group; ghosts (annotations from other versions on lines that match); citations, links, export to Word and Markdown; a reading edition.
+- **Functional overview**: the program read from its source: where it starts (the routine named by `entry` in `config.js`) and what it calls, in order; what each file runs as it is loaded; each file's routines and those other files call; the calls between the files.
 - **Versions**: each version's record and annotations, **Compare** (as text, or as the routines that differ) and **Genealogy** (stemma, flow, tree, lineage).
 - **Findings**: the bench's own findings, with evidence, and the group's.
 - **My notes**: a private tray of excerpts, figures and findings for writing.
@@ -21,7 +22,7 @@ There is no build step and nothing to install: plain HTML, CSS and JavaScript, s
    ```
 2. Put the sources under `source/`, one folder per version, and replace the example's files there.
 3. Describe the versions in `research/js/versions.js`: for each, an id, label, date, authors, summary, status, and its files (`build`); for a lost version, no files. Set how they descend (`PARENT`) and the lines of descent (`LINES`).
-4. Set the bench in `research/js/config.js`. Every value marked EDIT is the example's: the name and title, the storage prefix (unique to the bench), where it is published (`base`) and its repository (`repo`), a short reference for each version (`ref`), the version shown first (`start`), the comment mark and the pattern for a routine's first line in the sources' language, the About box, the people named in the text (`hands`), the genealogy's set and line, and the paratexts repository. The kit's README lists every setting.
+4. Set the bench in `research/js/config.js`. Every value marked EDIT is the example's: the name and title, the storage prefix (unique to the bench), where it is published (`base`) and its repository (`repo`), a short reference for each version (`ref`), the version shown first (`start`), the comment mark and the pattern for a routine's first line in the sources' language, the routine where the program starts (`entry`), the About box, the people named in the text (`hands`), the genealogy's set and line, and the paratexts repository. The kit's README lists every setting.
 5. Replace the example finding in `research/js/findings-data.js`, the check in `research/js/findings-checks.js`, and the tour's stops in `research/js/tour.js`.
 6. Change the name in the title, header and descriptions of `research/index.html`, `research/join.html` and `index.html`, and the icon (`research/img/icon.svg`).
 7. Commit, then make the SWHIDs of the sources (for citations and permalinks) and commit those:
@@ -44,7 +45,7 @@ Paratexts live in a private GitHub repository named in `config.js` (`paratexts`)
 
 ## The language of the sources
 
-The template reads any source text with the kit's plain adapter (`lang: 'plain'`): a comment runs from the comment mark to the end of the line, and a routine begins where the `routine` pattern matches. Highlighting in Read is the same (`hl` in `research/js/read.js`). A bench for one language can give its own adapter, as the SHRDLU bench does for MacLisp (`lang-maclisp.js`) and the Spacewar! bench for PDP-1 MACRO (`lang-macro.js`), and its own highlighting and views beside Read.
+The template reads any source text with the kit's plain adapter (`lang: 'plain'`): a comment runs from the comment mark to the end of the line, and a routine begins where the `routine` pattern matches. Highlighting in Read is the same (`hl` in `research/js/read.js`), and the Functional overview finds calls as a routine's name followed by `(`. A bench for one language can give its own adapter, as the SHRDLU bench does for MacLisp (`lang-maclisp.js`) and the Spacewar! bench for PDP-1 MACRO (`lang-macro.js`), and its own highlighting and views beside Read.
 
 ## Releases
 
@@ -71,6 +72,7 @@ research/
   js/config.js          the bench's settings for the kit
   js/core.js            fetching and dividing the texts, references, links
   js/read.js            Read
+  js/functional.js      the Functional overview
   js/about.js           a version's record (Versions ▸ This version)
   js/menus.js           the Versions and Help menus
   js/compare-defs.js    Compare's second mode (routines)

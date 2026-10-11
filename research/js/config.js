@@ -19,6 +19,7 @@
     comment: '#',                                          // EDIT: the comment mark (a string, or a list: ['//', '/*'])
     routine: '^\\s*(?:def|class)\\s+(\\w+)',               // EDIT: a regular expression for a line that begins a routine
     caseFold: false,                                       // true where case means nothing in the language
+    entry: 'main',                                         // EDIT: the routine where the program starts (Functional overview)
     // the About box (kit/about.js); purpose, inside and sources are HTML
     about: {
       icon: '<img src="img/icon.svg" alt="" width="40" height="40">',
