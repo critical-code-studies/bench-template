@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.21 (2026-10-12)
+
+- bench-kit 0.22.0 (a Graphics tab, `kit/graphics.js`, for a bench that draws its program).
+
 ## 0.1.20 (2026-10-12)
 
 - bench-kit 0.21.0: Read is the kit's; `js/read.js` is the call to it, where a bench adds its language, its files' names, a Key, the pop-up on a name and its repairs.
