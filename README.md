@@ -45,7 +45,7 @@ Paratexts live in a private GitHub repository named in `config.js` (`paratexts`)
 
 ## The language of the sources
 
-The template reads any source text with the kit's plain adapter (`lang: 'plain'`): a comment runs from the comment mark to the end of the line, and a routine begins where the `routine` pattern matches. Highlighting in Read is the same (`hl` in `research/js/read.js`), and the Functional overview finds calls as a routine's name followed by `(`. A bench for one language can give its own adapter, as the SHRDLU bench does for MacLisp (`lang-maclisp.js`) and the Spacewar! bench for PDP-1 MACRO (`lang-macro.js`), and its own highlighting and views beside Read.
+The template reads any source text with the kit's plain adapter (`lang: 'plain'`): a comment runs from the comment mark to the end of the line, and a routine begins where the `routine` pattern matches. Highlighting in Read is the same (`hl` in `research/js/read.js`), and the Functional overview (`kit/functional.js`) finds calls as a routine's name followed by `(`; a bench reads its language better with `SW.BENCH.functional.analyse` (the kit's README). A bench for one language can give its own adapter, as the SHRDLU bench does for MacLisp (`lang-maclisp.js`) and the Spacewar! bench for PDP-1 MACRO (`lang-macro.js`), and its own highlighting and views beside Read.
 
 ## Releases
 
@@ -72,7 +72,6 @@ research/
   js/config.js          the bench's settings for the kit
   js/core.js            fetching and dividing the texts, references, links
   js/read.js            Read
-  js/functional.js      the Functional overview
   js/about.js           a version's record (Versions ▸ This version)
   js/menus.js           the Versions and Help menus
   js/compare-defs.js    Compare's second mode (routines)
