@@ -75,6 +75,26 @@
       layout: function (raw) { return String(raw).replace(/\t/g, '        '); },
       words: false,
       files: ['all files', 'Include the support and documentation files, not only the program files']
+    },
+    // Help ▸ Referencing and versions (kit/helppages.js): how the bench's references read
+    refHelp: {
+      example: '[REF: EX2, wordfreq.py:12–14]',
+      about: '<p><b>EX</b>, then the version (<b>2</b>); then the file (<b>wordfreq.py</b>) and the lines (<b>12–14</b>).</p>',
+      more: '<p>Shorter forms: the version alone, <span class="mono">[REF: EX2]</span>; a whole file, <span class="mono">[REF: EX2, textutil.py]</span>. A lost version is named with the prefix: <span class="mono">EX-v0</span>.</p>',
+      form: 'Form: [REF: EX<version>, <file>:<lines>], e.g. [REF: EX2, wordfreq.py:12–14].',
+      versions: { title: 'The versions', all: true }
+    },
+    // Help ▸ What you should read (kit/helppages.js): the bench's reading, as HTML entries in groups.
+    // (A bench that repairs its texts to run them adds cards: see the kit's README, Hooks.)
+    reading: {
+      intro: 'Where to begin on reading code as a cultural text.',
+      menu: 'Critical code studies',
+      groups: [
+        ['Critical code studies', [
+          'Marino, M. C. (2020) <i>Critical Code Studies</i>. Cambridge, MA: The MIT Press.',
+          'Berry, D. M. (2011) <i>The Philosophy of Software: Code and Mediation in the Digital Age</i>. Basingstoke: Palgrave Macmillan.',
+          'Berry, D. M. and Marino, M. C. (2024) ‘Reading ELIZA: Critical Code Studies in Action’, <i>Electronic Book Review</i>. Available at: <a href="https://electronicbookreview.com/essay/reading-eliza-critical-code-studies-in-action/" target="_blank" rel="noopener">https://electronicbookreview.com/essay/reading-eliza-critical-code-studies-in-action/</a>.']]
+      ]
     }
   };
 })(typeof window !== 'undefined' ? window : globalThis);
