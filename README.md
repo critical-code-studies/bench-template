@@ -1,7 +1,7 @@
 # bench-template
 
 **Author:** David M. Berry  
-**Version:** 0.1.19 (bench-kit 0.20.0)
+**Version:** 0.1.20 (bench-kit 0.21.0)
 
 A starting point for a critical code studies research bench: a static site for reading, comparing and annotating the versions of a program's source code with a group. It is built on [bench-kit](https://github.com/critical-code-studies/bench-kit), the modules shared by the [SHRDLU](https://critical-code-studies.github.io/SHRDLU/research/) and [Spacewar!](https://spacewar1962.github.io/spacewar/research/) benches, and runs as it stands, on an invented example: two versions of a small Python program and a lost first sketch.
 
@@ -48,7 +48,7 @@ Paratexts live in a private GitHub repository named in `config.js` (`paratexts`)
 
 ## The language of the sources
 
-The template reads any source text with the kit's plain adapter (`lang: 'plain'`): a comment runs from the comment mark to the end of the line, and a routine begins where the `routine` pattern matches. Highlighting in Read is the same (`hl` in `research/js/read.js`), and the Functional overview (`kit/functional.js`) finds calls as a routine's name followed by `(`; a bench reads its language better with `SW.BENCH.functional.analyse` (the kit's README). A bench that can run its program (on an emulator or an interpreter) can give the overview a second mode beside the reading, Recorded run (`SW.BENCH.functional.recorded`), as the Spacewar! bench does; a switch then appears in its heading. A bench for one language can give its own adapter, as the SHRDLU bench does for MacLisp (`lang-maclisp.js`) and the Spacewar! bench for PDP-1 MACRO (`lang-macro.js`), and its own highlighting and views beside Read.
+The template reads any source text with the kit's plain adapter (`lang: 'plain'`): a comment runs from the comment mark to the end of the line, and a routine begins where the `routine` pattern matches. Highlighting in Read is the same (the kit's, or a bench's `hl`, given to `SW.readView` in `research/js/read.js`), and the Functional overview (`kit/functional.js`) finds calls as a routine's name followed by `(`; a bench reads its language better with `SW.BENCH.functional.analyse` (the kit's README). A bench that can run its program (on an emulator or an interpreter) can give the overview a second mode beside the reading, Recorded run (`SW.BENCH.functional.recorded`), as the Spacewar! bench does; a switch then appears in its heading. A bench for one language can give its own adapter, as the SHRDLU bench does for MacLisp (`lang-maclisp.js`) and the Spacewar! bench for PDP-1 MACRO (`lang-macro.js`), and its own highlighting and views beside Read.
 
 ## Releases
 
@@ -74,7 +74,7 @@ research/
   js/versions.js        the versions and their descent
   js/config.js          the bench's settings for the kit
   js/core.js            fetching and dividing the texts, references, links
-  js/read.js            Read
+  js/read.js            Read: the bench's hooks for the kit's Read view
   js/compare-defs.js    Compare's second mode (routines)
   js/findings-*.js      the bench's findings and checks
   js/tour.js            the welcome tour
