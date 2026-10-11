@@ -7,6 +7,6 @@
 (function (root) {
   'use strict';
   root.SW.BENCH.shell = {
-    views: ['read', 'functional', 'compare', 'genealogy', 'about', 'findings', 'notes', 'paratexts']
+    views: ['read', 'analyse', 'functional', 'compare', 'genealogy', 'about', 'findings', 'notes', 'paratexts']
   };
 })(this);

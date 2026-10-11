@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.24 (2026-10-12)
+
+- Text ▾ and the Analyse view (bench-kit 0.22.2, `kit/lenses.js`), with two lenses in `js/analyse.js` for any language: Comments (every comment, searchable; across the versions, the comments against the lines of code) and Routines (every routine, how often other lines name it, where it is defined; across the versions, which versions define each).
+
 ## 0.1.22 (2026-10-12)
 
 - bench-kit 0.22.1: wide menus kept on screen.
