@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.8 (2026-10-11)
+
+- bench-kit 0.16.2: the About box's Bench kit row in one line.
+
 ## 0.1.7 (2026-10-11)
 
 - bench-kit 0.16.1: its README lists everything a bench provides and every setting and hook.
