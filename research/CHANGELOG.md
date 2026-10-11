@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.17 (2026-10-11)
+
+- `css/research.css` without the rules the template never uses (Spacewar's and SHRDLU's views, carried over in the copy it began from): 1,073 lines to 272, the colours and themes kept.
+
 ## 0.1.16 (2026-10-11)
 
 - bench-kit 0.18.0: the styles every bench shares are the kit's `kit/bench.css`, loaded before `css/research.css`, which keeps the colours and the bench's own parts.
