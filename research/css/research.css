@@ -237,11 +237,8 @@ h2 .swref { font-size: 11.5px; vertical-align: middle; }
 :root { --menu-bg: #1c2733; --menu-line: rgba(255, 255, 255, 0.12); }
 @supports (background: color-mix(in srgb, red, blue)) { :root { --menu-bg: color-mix(in srgb, var(--surface) 84%, #ffffff 16%); } }
 :root[data-theme="paper"], :root[data-theme="white"], :root[data-theme="sepia"] { --menu-bg: #ffffff; --menu-line: rgba(0, 0, 0, 0.12); }
-.tab-menu, .toolbar .menu-body { background: var(--menu-bg); border-color: var(--menu-line); box-shadow: 0 14px 36px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(0, 0, 0, 0.25); }
 :root[data-theme="paper"] .tab-menu, :root[data-theme="white"] .tab-menu, :root[data-theme="sepia"] .tab-menu,
 :root[data-theme="paper"] .toolbar .menu-body, :root[data-theme="white"] .toolbar .menu-body, :root[data-theme="sepia"] .toolbar .menu-body { box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18), 0 0 0 1px rgba(0, 0, 0, 0.08); }
-.tab-menu .menu-group { background: none; color: var(--text-faint); font-weight: 400; padding: 6px 8px 2px; margin: 0; border-radius: 0; }
-.tab-menu .menu-rule { border: 0; border-top: 1px solid var(--menu-line); margin: 5px 4px; }
 
 /* assembly errors, explained */
 button.badge.err { cursor: pointer; font: inherit; }
