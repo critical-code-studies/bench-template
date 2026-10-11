@@ -9,8 +9,8 @@
     store: 'exbench.',                                     // EDIT: the prefix of this bench's keys in the browser's storage (unique per bench)
     base: 'https://critical-code-studies.github.io/bench-template/research/',   // EDIT: where the bench is published
     repo: 'https://github.com/critical-code-studies/bench-template',            // EDIT: its repository (source files link there)
-    ref: { v1: 'EX1', v2: 'EX2' },                         // EDIT: a short name for each version held, in references: [REF: EX2, wordfreq.py:12]
-    refPrefix: 'EX',                                       // EDIT: for a version without one (lost versions): EX-v0
+    // references to the sources (kit/refs.js): [REF: EX2, wordfreq.py:12], and the files on GitHub under source/
+    refs: { names: { v1: 'EX1', v2: 'EX2' }, prefix: 'EX-', dir: 'source' },   // EDIT: a short name for each version held; before a version without one
     forks: [['main', 'Versions']],                         // EDIT: groups in the version picker, by each version's fork
     start: 'v2',                                           // EDIT: the version shown first
     // the language of the texts: how a line divides into code and comment, and where a
