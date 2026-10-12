@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.45 (2026-10-12)
+
+- bench-kit 0.35.1: Chrome is given a minute to start in the tests on GitHub.
+
 ## 0.1.44 (2026-10-12)
 
 - bench-kit 0.35.0: the tests run on GitHub on every push (`.github/workflows/tests.yml`, `kit/tools/test.js`); `node research/kit/tools/test.js` runs them by hand.
