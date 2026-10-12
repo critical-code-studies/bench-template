@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.39 (2026-10-12)
+
+- bench-kit 0.31.1: the kit's tests (94: annotations, the version list, builds, the Help menu and more) run through `kit/tests/run.js`; make a release with `node research/kit/tools/release.js next "What changed."`.
+
 ## 0.1.38 (2026-10-13)
 
 - bench-kit 0.30.0: the annotation tests are the kit's (`tests/annotations.test.js` keeps this bench's values); the side panel, annotate dialog and toast are made by the kit (the tags' example is `tagsHint` in `js/config.js`); the annotated-line and small-screen styles are the kit's.
