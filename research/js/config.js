@@ -87,6 +87,8 @@
     },
     // Help ▸ What you should read (kit/helppages.js): the bench's reading, as HTML entries in groups.
     // (A bench that repairs its texts to run them adds cards: see the kit's README, Hooks.)
+    // sitemap.html (Help ▸ Site map), written by kit/tools/sitemap.js; EDIT: { site: [href, label], opens, files, lost, intro, links } (the kit's README)
+    sitemap: true,
     reading: {
       intro: 'Where to begin on reading code as a cultural text.',
       menu: 'Critical code studies',
