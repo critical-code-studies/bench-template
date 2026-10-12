@@ -48,33 +48,6 @@
   color-scheme: dark;
 }
 
-/* ---------- small screens ---------- */
-@media (max-width: 860px) {
-  body { overflow: auto; }
-  .bar { flex-wrap: wrap; }
-  .brand-name b { display: none; }
-  .run { grid-template-columns: 1fr !important; height: auto; }
-  body.drawer-open main { margin-right: 0; }
-  .drawer { width: 100%; }
-  .ln, .lncols { grid-template-columns: 3.2em 1fr 2em; }
-  .ln .a, .ln .w, .lncols .a, .lncols .w { display: none; }
-  .diff .row { grid-template-columns: 3em 1fr; }
-  .diff .row > span:nth-child(3), .diff .row > span:nth-child(4) { display: none; }
-  .meta { grid-template-columns: 1fr; }
-}
-
-/* An annotated line: a faint ground, not a rule, so its text keeps its column (off in ⚙ Settings) */
-:root:not(.no-note-shade) .rd-body:not(.notes-hidden) .ln.noted:not(.sel):not(.cur):not(.mlit):not(:hover) { background: var(--noted-bg); }
-
-/* Kinds of line, in the syntax colours. */
-/* definitions marked by a thin rule at the left of the line number, not a ground (a ground was distracting) */
-
-/* ---------- Read: notes inline (the default), under the last line each covers, on the right,
-   in type a little smaller than the code ---------- */
-
-/* line kinds: a vertical strip at the left of the number, drawn as a background so
-   consecutive lines join into one line (a shadow per cell could show seams) */
-
 h2 .swref { font-size: 11.5px; vertical-align: middle; }
 
 /* ---------- the welcome tour ---------- */

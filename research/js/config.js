@@ -48,6 +48,7 @@
       themeHint: 'The colours of the whole bench: listings, annotations and figures. The ◐ button in the top bar switches between your last light and dark themes.'
     },
     tag: 'bk:',   // the prefix of this bench's tags in Hypothesis (a bench made before bench-kit 0.5.0 names its old prefix here)
+    tagsHint: 'e.g. provenance, revision',   // EDIT: examples of tags, in the annotate dialog
     joinCard: '',
     // the worked examples in Help ▸ Advanced annotation
     annoHelp: {
