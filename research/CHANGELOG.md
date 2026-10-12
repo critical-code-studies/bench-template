@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.29 (2026-10-12)
+
+- bench-kit 0.24.2: paratext pictures and PDF pages zoom and move smoothly, and a drag no longer selects.
+
 ## 0.1.28 (2026-10-12)
 
 - bench-kit 0.24.1: PDF paratexts side by side zoom, move and turn their pages as pictures do.
