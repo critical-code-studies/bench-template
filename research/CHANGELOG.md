@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.41 (2026-10-12)
+
+- bench-kit 0.33.0: `node research/kit/tools/styles.js` checks a stylesheet change against the last commit in every state and theme.
+
 ## 0.1.40 (2026-10-12)
 
 - bench-kit 0.32.0: a site map (`sitemap.html`, written by `node research/kit/tools/sitemap.js`), linked from the tab row, Help and the no-JavaScript note; `sitemap: true` in `js/config.js`.
