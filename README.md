@@ -90,3 +90,7 @@ research/
   tests/                the annotation tests (open tests/annotations.html)
   tools/swhid.sh        makes js/swhid.js
 ```
+
+## Licence
+
+GNU Affero General Public License v3.0: see [`LICENSE`](LICENSE). A bench started from the template is a work based on it, and is distributed under the same licence. The kit in `research/kit` is under the same licence.
