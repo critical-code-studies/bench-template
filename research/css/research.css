@@ -21,7 +21,7 @@
   --text-faint: #767970;
   --beam: #6fdc8c;
   /* the bench's accent (annotations, titles, numbers, the current line): kept off yellow,
-     so that gold (--gold) stands apart */
+     so that gold (--kin) stands apart */
   --amber: #e58be0;
   --green: #57b86b;
   --red: #e25141;
@@ -94,7 +94,7 @@ button.badge.err { cursor: pointer; font: inherit; }
 .brand-name b { margin-left: 0; }
 .bar-right { margin-left: auto; }
 
-/* ---------- gold (kit/paratexts.css uses it) ---------- */
+/* ---------- the language, beside the picker ---------- */
 .vlang { font: 10px var(--mono); letter-spacing: 0.5px; color: var(--text-faint); margin-left: 8px; white-space: nowrap; }
 @media (max-width: 900px) { .vlang { display: none; } }
 

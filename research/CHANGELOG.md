@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.35 (2026-10-12)
+
+- bench-kit 0.27.0: the gold of repairs is `--kin` (and `--kin-bg`), as on the Spacewar! bench, where it was `--gold`. The chosen rating in Findings is now in gold.
+
 ## 0.1.34 (2026-10-12)
 
 - bench-kit 0.26.0: the colour themes, the type, the menus' panel, gold, the annotation marks and the genealogy figures' colour schemes are the kit's (`kit/themes.css`, loaded after `kit/bench.css`); `css/research.css` keeps the bench's default colours. Computed colours unchanged in every theme and figure scheme.
