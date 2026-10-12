@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.36 (2026-10-12)
+
+- bench-kit 0.28.0: the tab row's buttons no longer repeat their lenses (`data-lenses`): the kit reads them from `SW.BENCH.lenses.menus` in `js/analyse.js`. Help ▾ can be changed item by item (`SW.BENCH.menus.help`, in the kit's README).
+
 ## 0.1.35 (2026-10-12)
 
 - bench-kit 0.27.0: the gold of repairs is `--kin` (and `--kin-bg`), as on the Spacewar! bench, where it was `--gold`. The chosen rating in Findings is now in gold.
