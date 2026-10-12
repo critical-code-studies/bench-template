@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.30 (2026-10-12)
+
+- bench-kit 0.24.3: a drag over a paratext picture no longer selects the words the system finds in it (Live Text).
+
 ## 0.1.29 (2026-10-12)
 
 - bench-kit 0.24.2: paratext pictures and PDF pages zoom and move smoothly, and a drag no longer selects.
