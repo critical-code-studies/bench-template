@@ -210,24 +210,13 @@
 /* Kinds of line, in the syntax colours. */
 /* definitions marked by a thin rule at the left of the line number, not a ground (a ground was distracting) */
 
-.kx.kdef { background: linear-gradient(to right, var(--violet) 0, var(--violet) 2px, transparent 2px); border: 1px solid var(--line); }
-
 /* ---------- Read: notes inline (the default), under the last line each covers, on the right,
    in type a little smaller than the code ---------- */
 
 /* line kinds: a vertical strip at the left of the number, drawn as a background so
    consecutive lines join into one line (a shadow per cell could show seams) */
-.ln.kdef .n { background: linear-gradient(to right, color-mix(in srgb, var(--violet) 70%, transparent) 0 2px, transparent 2px) no-repeat; }
-.ln.kcom .n { background: linear-gradient(to right, color-mix(in srgb, var(--text-faint) 80%, transparent) 0 2px, transparent 2px) no-repeat; }
-.kx.kcom { background: linear-gradient(to right, var(--text-faint) 0, var(--text-faint) 2px, transparent 2px); border: 1px solid var(--line); }
-
-.fd-lvl.fd-minor, .fd-lvl.fd-notable { opacity: 0.8; }
 
 h2 .swref { font-size: 11.5px; vertical-align: middle; }
-
-.tray-sync.sync-ok { color: #3f9a62; }
-.tray-sync.sync-err { color: var(--amber); }
-.tray-sync.sync-off, .tray-sync.sync-busy { color: var(--text-faint); }
 
 /* ---------- the welcome tour ---------- */
 
