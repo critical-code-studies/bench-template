@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.57 (2026-10-13)
+
+- bench-kit 0.46.0: Help ▾ and Graphics ▾ in submenus, one for each group, its first items named under it.
+
 ## 0.1.56 (2026-10-13)
 
 - bench-kit 0.45.0: menus take submenus (a list beside an item; → to open, ← or Esc to close; opened in place on a narrow screen); a bench in layers gets Read ▾ as a submenu for each layer.
