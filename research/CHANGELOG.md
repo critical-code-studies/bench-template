@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.47 (2026-10-13)
+
+- bench-kit 0.40.1: the stars on a paratext's card rate it (a click on one was read as a click on a collection); a rating shows at once on the card and in the open panel, averages too, and is not undone by an earlier save returning.
+
 ## 0.1.46 (2026-10-13)
 
 - bench-kit 0.40.0: a version opened at a line is drawn there; a row in a name's pop-up selects its line; a bar offers to reload when a newer release is live; the paratext panel tightened and ratings from a card; a double-click in a find field selects all of it. The kit also offers layers.js (code in layers) and catalogue.js (what is known to have existed, held or not), off unless a bench sets SW.BENCH.layers or SW.BENCH.catalogue.
