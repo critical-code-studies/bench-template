@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.53 (2026-10-13)
+
+- bench-kit 0.44.2: no made-up Hypothesis address in the joining guide or ⚙ Settings; they ask for the group link from the invitation.
+
 ## 0.1.52 (2026-10-13)
 
 - bench-kit 0.44.1: the bench says where to get a token: Help ▸ Paratexts carries the token form and a new section on inviting someone, and ⚙ Settings shows, beneath each token box, where to get one and the steps to send.
