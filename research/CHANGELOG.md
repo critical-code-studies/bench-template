@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.94 (2026-10-19)
+
+- The kit at 0.66.1: Lisp read by definition takes ' as a letter in BBN-LISP and PDP-6 Lisp (where the scripts write DON'T and I'M), and Interlisp has a reader of its own with ' as QUOTE.
+
 ## 0.1.93 (2026-10-19)
 
 - The kit at 0.66.0: Implementations as a kit module (not used on this bench yet).
