@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.93 (2026-10-19)
+
+- The kit at 0.66.0: Implementations as a kit module (not used on this bench yet).
+
 ## 0.1.92 (2026-10-19)
 
 - The kit at 0.65.3: a picture in an item with alternates no longer shows an empty pane; the bench says what to do when a GitHub token is lost or has expired.
