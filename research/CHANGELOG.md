@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.97 (2026-10-22)
+
+- Kit 0.74.0: Versions ▸ Collate in place of Compare, and the tour's stop named for it.
+
 ## 0.1.96 (2026-10-21)
 
 - The kit at 0.66.3: a submenu opens as soon as the pointer reaches its item, and the list the pointer is heading into stays open.
