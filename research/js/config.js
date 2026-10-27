@@ -7,6 +7,7 @@
     title: 'Example Research Bench',                       // EDIT: the page title and the About box
     slug: 'example',                                       // EDIT: file names of exports and backups
     store: 'exbench.',                                     // EDIT: the prefix of this bench's keys in the browser's storage (unique per bench)
+    editable: false,                                       // true: the project's user sets the name, references, language and GitHub locations in Settings ▸ Bench (kit/project.js)
     base: 'https://critical-code-studies.github.io/bench-template/research/',   // EDIT: where the bench is published
     repo: 'https://github.com/critical-code-studies/bench-template',            // EDIT: its repository (source files link there)
     // references to the sources (kit/refs.js): [REF: EX2, wordfreq.py:12], and the files on GitHub under source/

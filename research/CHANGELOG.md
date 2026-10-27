@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.99 (2026-10-27)
+
+- Kit 0.81.0: Settings ▸ Bench (editable: true) for a project its user configures, with the GitHub locations locked
+
 ## 0.1.98 (2026-10-27)
 
 - Kit 0.80.0: Collate's line in Versions ▾ names the modes this bench offers; Book and its options are in the kit for a bench whose texts have a document.
