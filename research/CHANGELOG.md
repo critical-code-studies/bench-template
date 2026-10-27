@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.101 (2026-10-27)
+
+- Kit 0.83.0: a project saved and opened as a file, CCS Workbench sessions and samples, where editable is true
+
 ## 0.1.100 (2026-10-27)
 
 - Kit 0.82.0: versions made from files in the page (Versions ▸ Add a version from files) where editable is true
