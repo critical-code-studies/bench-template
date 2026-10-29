@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.105 (2026-10-29)
+
+- Kit 0.85.0: File ▾ before Read, for the project as a whole; samples in a picker group of their own
+
 ## 0.1.104 (2026-10-29)
 
 - The template's DOI (10.5281/zenodo.23763338), its badge placed by the kit; kit 0.84.4
