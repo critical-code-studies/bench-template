@@ -25,6 +25,7 @@
     about: {
       icon: '<img src="img/icon.svg" alt="" width="40" height="40">',
       author: 'Your Name', citeAuthor: 'Name, Y.',          // EDIT
+      // doi: '10.5281/zenodo.…', doiBadge: 'https://zenodo.org/badge/<repository id>.svg',   // EDIT: your bench's DOI, once Zenodo has archived a Release (the kit's README, "A bench's DOI"); not the template's
       purpose: 'A bench for the critical reading of a program’s source code, in its versions. This is the template: replace this text.',   // EDIT
       inside: 'The files of each version as held, divided into lines; nothing is run.',   // EDIT
       sources: 'An invented example: two versions of a small Python program. Details under Versions.',   // EDIT

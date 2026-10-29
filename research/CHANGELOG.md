@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.103 (2026-10-29)
+
+- Kit 0.84.2: a bench's Zenodo badge and DOI in the About box (about.doi, about.doiBadge, commented in config.js)
+
 ## 0.1.102 (2026-10-27)
 
 - Kit 0.84.0: annotation types, Beside, files in folders, repairs and Flatten for versions made here
