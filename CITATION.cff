@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use bench-template in your work, please cite it as below."
+title: "bench-template: a starting point for a critical code studies research bench"
+abstract: >-
+  A starting point for a critical code studies research bench: a static site for
+  reading, comparing and annotating the versions of a program's source code with a
+  group. Built on bench-kit, the modules shared by the SHRDLU and Spacewar! benches.
+type: software
+authors:
+  - family-names: Berry
+    given-names: David M.
+    affiliation: University of Sussex
+    orcid: "https://orcid.org/0000-0002-7737-5586"
+repository-code: "https://github.com/critical-code-studies/bench-template"
+license: GPL-3.0
+version: "0.1.106"
+date-released: 2026-10-29
+keywords:
+  - critical code studies
+  - research bench
+  - template
+  - close reading
