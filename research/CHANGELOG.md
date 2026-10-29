@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.106 (2026-10-29)
+
+- Kit 0.85.1: Add a version from files fills in its id, label and date; the test file no longer names the template's references, so a new bench need not rewrite it
+
 ## 0.1.105 (2026-10-29)
 
 - Kit 0.85.0: File ▾ before Read, for the project as a whole; samples in a picker group of their own
