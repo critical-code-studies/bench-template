@@ -94,3 +94,5 @@ research/
 ## Licence
 
 GNU General Public License v3.0: see [`LICENSE`](LICENSE). A bench started from the template is a work based on it, and is distributed under the same licence. The kit in `research/kit` is under the same licence.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23763338.svg)](https://doi.org/10.5281/zenodo.23763338)
