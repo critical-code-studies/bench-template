@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.108 (2026-10-30)
+
+- Kit 0.87.0: Book's enlarged page zooms with a pinch, double-click, Fit and 1:1, takes a sharper image where the bench gives one, and puts large revision boxes beneath the line bands
+
 ## 0.1.107 (2026-10-30)
 
 - Kit 0.86.0: Book draws a page's lines as bands, and shows an archive's folio and sequence
