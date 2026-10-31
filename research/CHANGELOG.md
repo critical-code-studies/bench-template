@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.111 (2026-10-31)
+
+- Kit 0.90.0: bookmarks in Book, and the enlarged page's details on one line
+
 ## 0.1.110 (2026-10-31)
 
 - Kit 0.89.0: a page rated out of three stars in Book's enlarged page
