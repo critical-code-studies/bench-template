@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.113 (2026-10-31)
+
+- Kit 0.90.2: Book's enlarged page closes only with ✕, a click outside it, or Esc
+
 ## 0.1.112 (2026-10-31)
 
 - Kit 0.90.1: doc.imageCreditShort, the line a folded image credit shows
