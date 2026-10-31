@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.110 (2026-10-31)
+
+- Kit 0.89.0: a page rated out of three stars in Book's enlarged page
+
 ## 0.1.109 (2026-10-30)
 
 - Kit 0.88.0: Book's enlarged page takes the page's shape and its details wrap; Settings ▸ Book trims the pages' edges, to the bench's trim (doc.trim, per page if it likes) or none
