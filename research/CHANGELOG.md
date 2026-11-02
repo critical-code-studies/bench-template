@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.121 (2026-11-02)
+
+- Kit 0.96.0: Read a plain tab and File ▾ ▸ Open a version… (⌘O); Read keeps its place; the Topics tab's views; topics compared by cosine.
+
 ## 0.1.120 (2026-11-02)
 
 - Kit 0.95.0: the topics engine on mallette 0.2.1, tools/topics.js, the Topics tab's Models part, and a guide for benches making their own models.
