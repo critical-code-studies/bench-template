@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.115 (2026-11-02)
+
+- Kit 0.91.0: dictionaries (📕 Look up), and Back up and Restore my data without their lines
+
 ## 0.1.114 (2026-11-02)
 
 - Kit 0.90.3: A− and A+ size Book's text
