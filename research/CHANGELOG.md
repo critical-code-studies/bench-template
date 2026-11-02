@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.118 (2026-11-02)
+
+- Kit 0.93.0: menus and tabs a bench turns off (menusOff), the Topics tab, and word cloud shapes.
+
 ## 0.1.117 (2026-11-02)
 
 - Kit 0.92.1: the word cloud's tests no longer depend on the machine's fonts.
