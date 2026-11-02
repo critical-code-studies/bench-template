@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.116 (2026-11-02)
+
+- Kit 0.92.0: word clouds (SW.wordcloud), text statistics (SW.textstats), and -men looked up as -man.
+
 ## 0.1.115 (2026-11-02)
 
 - Kit 0.91.0: dictionaries (📕 Look up), and Back up and Restore my data without their lines
