@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.120 (2026-11-02)
+
+- Kit 0.95.0: the topics engine on mallette 0.2.1, tools/topics.js, the Topics tab's Models part, and a guide for benches making their own models.
+
 ## 0.1.119 (2026-11-02)
 
 - Kit 0.94.0: word cloud looks, Default View, zoom and export; the way back (← Back) after a jump.
