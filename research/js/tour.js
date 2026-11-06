@@ -10,8 +10,8 @@
   B.tourOffer = 'A short tour shows how to read, compare and annotate the sources (five stops, about a minute).';
   B.tours = {
     welcome: { title: 'Welcome to the bench', stops: [
-      { title: 'Welcome to the bench', v: 'v2', tab: 'read', focus: '#pick-a',
-        text: 'The bench holds the versions of a program: choose one here. Lost versions are listed too, with what is known of them.' },
+      { title: 'Welcome to the bench', v: 'v2', tab: 'read', focus: '#tabs [data-menu="file"]',
+        text: 'The bench holds the versions of a program: File ▾ ▸ Open a version… chooses one. Lost versions are listed too, with what is known of them.' },
       { title: 'Reading a listing', v: 'v2', tab: 'read', find: /^def words_of/, focus: '.ln.sel',
         text: 'Each version’s files, line by line, as held. Click a line to select it (shift-click for a range); the bar below offers Annotate, Copy citation and the rest.' },
       { title: 'Annotating together', v: 'v2', tab: 'read', find: /^def words_of/, focus: '#rd-selbar',

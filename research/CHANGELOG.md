@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.127 (2026-11-06)
+
+- kit 0.99.0: the Library's shelf, player and additions, Edit and its padlock, the picker and Genealogy off unless asked for.
+
 ## 0.1.126 (2026-11-06)
 
 - kit 0.98.1

@@ -65,7 +65,7 @@
     compare: { comment: '#', normalised: false, reading: 'Reading',
                supplied: ['support files', 'Include the support files, not only the program files'] },
     comparePrefix: 'Example: ',
-    genealogy: { set: ['v1', 'v2'], line: 'main', lineNames: { main: 'The main line' } },
+    genealogy: { set: ['v1', 'v2'], line: 'main', lineNames: { main: 'The main line' } },   // EDIT: on: true puts it in Versions ▾; its readings need tuning for each bench
     figureNum: { print: '#a3317a', paper: '#a3317a', phosphor: '#e58be0' },
     paratexts: { org: 'critical-code-studies', repo: 'example_paratexts', cache: 'example-paratexts' },   // EDIT: a private repository for scans and documents
     examples: { date: 'e.g. 2020-03-15, or 2020', archive: 'e.g. Computer History Museum', versions: 'e.g. v1, v2',
