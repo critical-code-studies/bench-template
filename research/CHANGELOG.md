@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.131 (2026-11-06)
+
+- kit 1.3.0: facets in the Library; Add a work only for a token that can write.
+
 ## 0.1.130 (2026-11-06)
 
 - kit 1.2.0: notes on Library and Paratexts items, the Library at full width, more covers.
