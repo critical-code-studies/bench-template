@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.146 (2026-11-07)
+
+- kit 1.8.9: the box's actions as icons, To read views, call numbers, a short intro
+
 ## 0.1.145 (2026-11-07)
 
 - kit 1.8.8: yellow stars, a To read shelf with library cards
