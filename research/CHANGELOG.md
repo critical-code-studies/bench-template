@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.133 (2026-11-07)
+
+- kit 1.5.0: Rating filter, language by name in the Library's filters
+
 ## 0.1.132 (2026-11-07)
 
 - kit 1.4.0: S M L covers, star ratings and emoji in the Library, filters fix
