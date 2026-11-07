@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.142 (2026-11-07)
+
+- kit 1.8.5: the no-copy wording, and no 404 without a snapshot
+
 ## 0.1.141 (2026-11-07)
 
 - kit 1.8.4: name on one line, badges clear of titles, failed reads said, a public snapshot of ratings, marks and tags
