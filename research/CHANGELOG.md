@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.164 (2026-11-08)
+
+- kit 1.8.27: To read toolbar without catalogue and gallery; reactions as the annotations show them
+
 ## 0.1.163 (2026-11-08)
 
 - kit 1.8.26: a book card's back on the front's paper; the Renew menu reads in dark themes
