@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.156 (2026-11-08)
+
+- kit 1.8.19: Library tabs pinned; filters closed at first in their own pane, a funnel to show or hide them; a gallery view; the library card turns over
+
 ## 0.1.155 (2026-11-08)
 
 - kit 1.8.18: Settings ▸ Library with the reader's library card; sign book cards with name or initials; due-soon window; report and web page titles in italics
