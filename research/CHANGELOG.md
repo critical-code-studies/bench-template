@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.147 (2026-11-08)
+
+- kit 1.8.10: a card catalogue, cards that turn over
+
 ## 0.1.146 (2026-11-07)
 
 - kit 1.8.9: the box's actions as icons, To read views, call numbers, a short intro
