@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.151 (2026-11-08)
+
+- kit 1.8.14: loans sent once, with a reference
+
 ## 0.1.150 (2026-11-08)
 
 - kit 1.8.13: due dates in What's new, export from a work's box
