@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.153 (2026-11-08)
+
+- kit 1.8.16: To read cards keep paper, age and inks; a sticker over a full card; due-soon stamp and alert; Paratexts Annotated filter; export with editors and translators; needs-checking mark
+
 ## 0.1.152 (2026-11-08)
 
 - kit 1.8.15: no repeated headings, a clearer menu, Library and To read tabs
