@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.162 (2026-11-08)
+
+- kit 1.8.25: To read fixed for older loans; book cards turn over again; Wipe my loan history
+
 ## 0.1.161 (2026-11-08)
 
 - kit 1.8.24: a work's notes panel only when it has notes; the library card smaller, with the bench's whole name
