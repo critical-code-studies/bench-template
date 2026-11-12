@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.170 (2026-11-12)
+
+- kit 1.9.4: Share highlight cites in the bench's words (doc.shareCite) and names the passage once
+
 ## 0.1.169 (2026-11-12)
 
 - kit 1.9.3: Book's Share highlight and Share page; Edit's text in a box of its own
