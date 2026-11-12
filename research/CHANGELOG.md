@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.169 (2026-11-12)
+
+- kit 1.9.3: Book's Share highlight and Share page; Edit's text in a box of its own
+
 ## 0.1.168 (2026-11-12)
 
 - kit 1.9.2: Book's highlight links (a page's passages and lines tied to the text both ways, their colour, a switch in Settings); Settings saves with a page's own trim
