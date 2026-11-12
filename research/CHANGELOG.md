@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.172 (2026-11-12)
+
+- kit 1.9.6: a passage's highlight runs two pixels past its place above and below
+
 ## 0.1.171 (2026-11-12)
 
 - kit 1.9.5: a passage's highlight has no edge; a passage across a page turn marked by its own words only
