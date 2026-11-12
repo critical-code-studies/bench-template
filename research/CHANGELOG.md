@@ -2,6 +2,10 @@
 
 Changes to the research bench (`research/`). The bench keeps its own version numbers, raised by 0.0.1 with each change (the `?v=` on every script and stylesheet in `index.html`); this file records the versions published, newest first.
 
+## 0.1.174 (2026-11-12)
+
+- kit 1.9.8: Settings ▸ Book fits its pane
+
 ## 0.1.173 (2026-11-12)
 
 - kit 1.9.7: Book's stage slider turns every revision off
